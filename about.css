@@ -1,0 +1,99 @@
+@keyframes logo {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.about-us {
+  background-color: #f3d7b7;
+  padding-top: 130px;
+  height: 100vh;
+}
+.about-parent {
+  position: relative;
+  top: 70px;
+  display: flex;
+  justify-content: space-between;
+}
+.about-parent__left {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 47px;
+  width: 400px;
+  font-size: 16px;
+}
+.about-parent__left h1 {
+  font-size: 53px;
+  text-transform: uppercase;
+}
+.about-parent__right {
+  margin-right: -100px;
+  position: relative;
+}
+.about-parent__logo {
+  position: absolute;
+  top: -100px;
+  left: -100px;
+  animation: logo 5s linear infinite;
+}
+
+
+.commitment {
+    background-color: #F8F8F2;
+    padding-top: 180px;
+    height: 100vh;
+}
+.commitment-parent {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    gap: 300px;
+    font-size: 18px;
+}
+.commitment-parent__right {
+    display: flex;
+    flex-direction: column;
+    gap: 75px;
+    align-items: start;
+}
+.commitment-parent__right h1 {
+    text-transform: uppercase;
+    font-size: 45px;
+}
+.commitment-parent__right p {
+    width: 565px;
+}
+
+.uncompromising {
+    background-color: #C99B67;
+    color: white;
+    padding-bottom: 70px;
+}
+.uncompromising-parent {
+    display: flex;
+    gap: 50px;
+}
+.uncompromising-parent__left {
+    display: flex;
+    flex-direction: column;
+    width: 630px;
+    gap: 30px;
+}
+.uncompromising-parent__left h1 {
+    margin-top: 70px;
+    width: 395px;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+.uncompromising-parent__right img {
+    position: absolute;
+    top: -150px;
+    left: 100px;
+}
+.uncompromising-parent__right {
+    position: relative;
+}
